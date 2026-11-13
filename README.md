@@ -2,15 +2,15 @@
 
 # Multi-Floor Enterprise Network Topology & Security (Cisco Packet Tracer)
 
-A collaborative network engineering project designing, segmenting, and securing a 3-floor corporate network infrastructure (`192.168.0.0/24`) for BrightSoft Solutions in Cisco Packet Tracer[cite: 45, 72, 74].
+A collaborative network engineering project designing, segmenting, and securing a 3-floor corporate network infrastructure (`192.168.0.0/24`) for BrightSoft Solutions in Cisco Packet Tracer.
 
 ![BrightSoft Network Topology](topology_diagram.png)
 
 ## Key Implementations
-- **VLSM Subnetting & Services:** Segmented the `192.168.0.0/24` space across three floors and centralized infrastructure, deploying independent DHCP pools and an internal DNS server (`192.168.0.13`)[cite: 45, 46, 51, 74].
-- **VLANs & Inter-VLAN Routing:** Configured VLAN 10 (Test Engineers), VLAN 20 (UI Designers), and VLAN 30 (Shared Resources) on Floor 2 using 802.1Q trunking and Router-on-a-Stick sub-interfaces[cite: 45, 46, 52, 53, 54].
-- **Access Control & Static NAT (DMZ):** Published the Floor 3 Staging Web Server (`192.168.0.73`) to external partners over HTTP/HTTPS via Static NAT (`203.0.113.2`) while enforcing Extended ACLs to isolate internal teams and block unauthorized lateral traffic[cite: 45, 56, 57, 58, 60].
-- **Dynamic Routing & Failover:** Configured OSPF Area 0 and RIPv2 with two-way route redistribution and verified automatic backup link failover using `tracert` and interface shutdown tests[cite: 62, 63, 65, 66].
+- **VLSM Subnetting & Services:** Segmented the `192.168.0.0/24` space across three floors and centralized infrastructure, deploying independent DHCP pools and an internal DNS server (`192.168.0.13`).
+- **VLANs & Inter-VLAN Routing:** Configured VLAN 10 (Test Engineers), VLAN 20 (UI Designers), and VLAN 30 (Shared Resources) on Floor 2 using 802.1Q trunking and Router-on-a-Stick sub-interfaces.
+- **Access Control & Static NAT (DMZ):** Published the Floor 3 Staging Web Server (`192.168.0.73`) to external partners over HTTP/HTTPS via Static NAT (`203.0.113.2`) while enforcing Extended ACLs to isolate internal teams and block unauthorized lateral traffic.
+- **Dynamic Routing & Failover:** Configured OSPF Area 0 and RIPv2 with two-way route redistribution and verified automatic backup link failover using `tracert` and interface shutdown tests.
 
 ## How to Open
-Open `BrightSoft Solutions Network Topology.pkt` in **Cisco Packet Tracer** (v8.2 or newer) to inspect router/switch running configs and test end-to-end connectivity[cite: 70].
+Open `BrightSoft Solutions Network Topology.pkt` in **Cisco Packet Tracer** (v8.2 or newer) to inspect router/switch running configs and test end-to-end connectivity.
